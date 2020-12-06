@@ -1,7 +1,8 @@
 // Update with your config settings.
 require('dotenv').config();
 
-const pgConnection = process.env.DATASE_URL || 'postgresql://postgres@localhost/auth';
+const pgConnection =
+  process.env.DATASE_URL || 'postgresql://postgres@localhost/auth';
 
 module.exports = {
   development: {
